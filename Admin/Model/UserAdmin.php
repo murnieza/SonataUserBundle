@@ -200,11 +200,7 @@ class UserAdmin extends Admin
                         ->add('credentialsExpired', null, array('required' => false))
                     ->end()
                     ->with('Groups')
-                        ->add('groups', 'sonata_type_model', array(
-                            'required' => false,
-                            'expanded' => true,
-                            'multiple' => true,
-                        ))
+                        ->add('groups')
                     ->end()
                     ->with('Roles')
                         ->add('realRoles', SecurityRolesType::class, array(
