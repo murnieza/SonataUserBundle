@@ -1,5 +1,5 @@
 {
-    "name": "albegali/user-bundle",
+    "name": "Bramboz/user-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SonataUserBundle",
     "keywords": ["user", "sonata", "google authenticator"],
